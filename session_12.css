@@ -1,0 +1,153 @@
+/**{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+
+.box {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.b1 {
+	width: 150px;
+	height: 150px;
+	border: 1px solid black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.static {
+	position: static;
+	top: 20px;
+	left: 30px;
+}
+
+
+.relative {
+	position: relative;
+	top: 30px;
+	right: 30px;
+	background-color: lightblue;
+}
+
+.fixed {
+	position: fixed;
+	background-color: lightcoral;
+	top: 0;
+	left: 0;
+	width: 300px;
+	height: 300px;
+	z-index: -3;
+}
+
+.absolute {
+	background-color: lightgoldenrodyellow;
+	position: absolute;
+	top: 10px;
+	left: 200px;
+}*/
+
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.main {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+
+	background-color: black;
+}
+
+
+
+.box {
+	width: 700px;
+	height: 150px;
+	background-color: #252a2b;
+	margin-top: 10px;
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+	border-radius: 10px;
+}
+
+.image {
+	width: 105px;
+	height: 100px;
+	background-color: pink;
+	margin-left: 20px;
+	border-radius: 10px;
+}
+
+
+.image img {
+	width: 105px;
+	height: 100px;
+	background-size: contain;
+	border-radius: 10px;
+}
+
+
+.content {
+	margin-left: 20px;
+}
+
+.row {
+	display: flex;
+	align-items: center;
+}
+
+
+.row h1 {
+	font-size: 1.1rem;
+    font-weight: 600;
+    color: #f4f7fa;
+    font-family: Libre Baskerville;
+    margin-right: 8px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.row span {
+	font-size: 0.7rem;
+    padding: 3px 8px;
+    background-color: color-mix(in srgb, #ceaf7f, transparent 85%);
+    color: #ceaf7f;
+    border-radius: 20px;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.content p {
+	color: color-mix(in srgb, #f1f3f5, transparent 20%);
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+
+.content h2 {
+	font-weight: 700;
+    color: #ceaf7f;
+    font-size: 1.1rem;
+}
